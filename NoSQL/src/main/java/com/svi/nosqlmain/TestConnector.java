@@ -1,10 +1,10 @@
-package com.svi.nosqltest;
+package com.svi.nosqlmain;
 
 import java.net.InetSocketAddress;
 
 import com.datastax.oss.driver.api.core.CqlSession;
 
-public class dummyConnector {
+public class TestConnector {
 
 	public static void main(String[] args) {
         String contactPoints = "127.0.0.1";  //local machine

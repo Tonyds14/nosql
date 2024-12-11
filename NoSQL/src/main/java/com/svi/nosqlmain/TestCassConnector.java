@@ -1,4 +1,4 @@
-package com.svi.nosqltest;
+package com.svi.nosqlmain;
 
 import java.net.InetSocketAddress;
 
@@ -10,7 +10,7 @@ import com.datastax.oss.driver.api.core.cql.Row;
 //import com.datastax.oss.driver.api.mapper.annotations.DaoFactory;
 //import com.datastax.oss.driver.api.mapper.annotations.Mapper;
 
-public abstract class CassandraConnector {
+public abstract class TestCassConnector {
 
     public static void main(String[] args) {
     	dummyConnect();

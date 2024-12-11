@@ -1,4 +1,4 @@
-package com.svi.nosqltest;
+package com.svi.nosqlmain;
 
 import java.net.InetSocketAddress;
 import java.time.LocalDate;
@@ -7,7 +7,7 @@ import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.cql.ResultSet;
 import com.datastax.oss.driver.api.core.cql.Row;
 
-public class dummyCassUnload {
+public class TestCassUnload {
 
 	public static void main(String[] args) {
         String contactPoint = "127.0.0.1";  //local machine
