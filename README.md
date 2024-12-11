@@ -8,7 +8,7 @@ Java based program that reads an excel file that contains record per row contain
 
 Config Properties Example
 * add handlers for wrong configurations
-#ACTIONS (UPDATE, INSERT, DELETE)
+#ACTIONS (UPDATE, INSERT, DELETE)/n
 ACTION = INSERT
 INPUT_FILEPATH = C:\Users\<user>\Pictures\Camera Roll\excel.xls
 CASSANDRA_KEYSPACE = <user>_training
