@@ -27,6 +27,7 @@ if checking Cassandra connectivity on different cmd session/new window, type in 
 Sample Run:
 
 config.properties settings
+
 ![image](https://github.com/user-attachments/assets/356394de-69aa-435e-a0b4-eadb96ed23dc)
 
 
@@ -42,4 +43,9 @@ Console Output:
 Output log file
 
 ![image](https://github.com/user-attachments/assets/dad5ceaf-108a-4929-a8fd-dee877ba7c30)
+
+validation thru cmd, cqlsh
+
+![image](https://github.com/user-attachments/assets/85fb7689-4e20-4c5c-93d7-8c56d5e53e54)
+
 
