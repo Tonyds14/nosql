@@ -1,0 +1,15 @@
+Total Input Records: 50; #Recs for Processing: 41 #Recs Rejected: 9
+Rejected Records: 
+Rec: 1, ID: c779f54cb7e74352975b8042181a1f14, Alice Smith, 47, 8/10/XXXX, Reason: Error parsing birthdate
+Rec: 2, ID: c1f6f87f211e4f4e92733a94b1009896, Bob Johnson, 22, 13/25/2001, Reason: Error parsing birthdate
+Rec: 3, ID: 653c13eb49534695a0d87ff9440d0f7a, Chloe Williams, 56, 11/45/1967, Reason: Error parsing birthdate
+Rec: 4, ID: 7e94b3c019e74fb488efaba361489ade, Daniel Brown, 0, 1982-06-15, Reason: Age less than 1
+Rec: 5, ID: 66cae2de76fc4514a9c63377bbc9d624, Emily Jones, X, 2004-09-22, Reason: Error parsing age
+Rec: 47, ID: 6730e7a1c3434261b0c74fbe055df194, Ulysses Ward, 35, , Reason: Error parsing birthdate
+Rec: 48, ID: 7805a84182344927a30746458dfc95b0, Victoria Wright, , 1964-05-11, Reason: Error parsing age
+Rec: 49, ID: d2020bc497424294afb25cb27f67116a, , 46, 1977-07-17, Reason: Name is blank
+Rec: 50, ID: , Zoe Hall, 30, 1993-02-04, Reason: ID is blank
+
+Performing INSERT operation
+Rows INSERTED: 41
+Unsuccessful INSERT: 0; Duplicate(0) and Exception(0)
