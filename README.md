@@ -1,8 +1,23 @@
 # nosql
+Java based program that reads an excel file that contains record per row containing 
+(UUID, name, age, birthdate) and inserts/deletes/updates records in Cassandra depending on configuration
+- If action is INSERT, ignore and flag already existing records and list them in output log file
+- If action is DELETE, ignore and flag non existing records and list them in output log file
+- If action is UPDATE, ignore and flag non existing records and list them in output log file
+- Create logfile at the end of the run of program
+
+Config Properties Example
+* add handlers for wrong configurations
+#ACTIONS (UPDATE, INSERT, DELETE)
+ACTION = INSERT
+INPUT_FILEPATH = C:\Users\<user>\Pictures\Camera Roll\excel.xls
+CASSANDRA_KEYSPACE = <user>_training
+CASSANDRA_TABLE = crud_training
+CASSANDRA_IP = 18.2X9.XXX.XXX
+LOG_FILE_OUTPUT_PATH = C:\Users\<uname>\Pictures\Camera Roll
+
+Pre-requisites:
 Installing Apache Cassandra on Windows in 2021.docx - for the application and version used and installation guide.
-java coding exercise for nosql
-
-
 
 Starting up cassandra db and testing connectivity
 1. Start Cassandra DB
@@ -14,7 +29,6 @@ Note of the message below:
 "Connected to Test Cluster at 127.0.0.1:9042.
 [cqlsh 5.0.1 | Cassandra 3.11.16 | CQL spec 3.4.4 | Native protocol v4]
 Use HELP for help."
-
 Cluster Name: "Test Cluster"
 
 Indicates a successful connection to the Cassandra cluster.
